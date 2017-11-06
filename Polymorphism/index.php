@@ -1,0 +1,56 @@
+<?php
+	include ('implementasi.php');
+include ('Ampibi.php');
+include ('Reptil.php');
+include ('Mamalia.php');
+
+echo "=====Amfibi=====<br>";
+echo $ampibi1->getNama();
+echo $ampibi1->getReproduksi();
+echo $ampibi1->getMakan()."<br>";
+echo $ampibi2->getNama();
+echo $ampibi2->getReproduksi();
+echo $ampibi2->getMakan()."<br>";
+echo $ampibi3->getNama();
+echo $ampibi3->getReproduksi();
+echo $ampibi3->getMakan()."<br>";
+echo $ampibi4->getNama();
+echo $ampibi5->getReproduksi();
+echo $ampibi5->getMakan()."<br>";
+echo $ampibi5->getNama();
+echo $ampibi5->getReproduksi();
+echo $ampibi5->getMakan()."<br>";
+
+echo "=====Reptil=====<br>";
+echo $reptil1->getNama();
+echo $reptil1->getReproduksi();
+echo $reptil1->getMakan()."<br>";
+echo $reptil2->getNama();
+echo $reptil2->getReproduksi();
+echo $reptil2->getMakan()."<br>";
+echo $reptil3->getNama();
+echo $reptil3->getReproduksi();
+echo $reptil3->getMakan()."<br>";
+echo $reptil4->getNama();
+echo $reptil4->getReproduksi();
+echo $reptil4->getMakan()."<br>";
+echo $reptil5->getNama();
+echo $reptil5->getReproduksi();
+echo $reptil5->getMakan()."<br>";
+
+echo "======Mamalia=====<br>";
+echo $mamalia1->getNama();
+echo $mamalia1->getReproduksi();
+echo $mamalia1->getMakan()."<br>";
+echo $mamalia2->getNama();
+echo $mamalia2->getReproduksi();
+echo $mamalia2->getMakan()."<br>";
+echo $mamalia3->getNama();
+echo $mamalia3->getReproduksi();
+echo $mamalia3->getMakan()."<br>";
+echo $mamalia4->getNama();
+echo $mamalia4->getReproduksi();
+echo $mamalia4->getMakan()."<br>";
+echo $mamalia5->getNama();
+echo $mamalia5->getReproduksi();
+echo $mamalia5->getMakan()."<br>";
